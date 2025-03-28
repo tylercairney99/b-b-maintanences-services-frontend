@@ -20,7 +20,7 @@ body {
 }
 
 .App {
-  min-height: 100vh;
+  text-align: center;
 }
 
 /* Remove default margin on headings */
@@ -85,7 +85,14 @@ html {
 }
 
 .App-header {
-  display: none;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
 .App-link {
